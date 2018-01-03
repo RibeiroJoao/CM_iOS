@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647684651FD5C1360032D17E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647684641FD5C1360032D17E /* UserNotifications.framework */; };
+		647684671FD5C46B0032D17E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647684661FD5C46B0032D17E /* UserNotificationsUI.framework */; };
+		648BCC5A1FC0997A002EBDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BCC591FC0997A002EBDA3 /* main.m */; };
+		648BCC5D1FC0997A002EBDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BCC5C1FC0997A002EBDA3 /* AppDelegate.m */; };
+		648BCC601FC0997A002EBDA3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648BCC5F1FC0997A002EBDA3 /* LoginViewController.m */; };
+		648BCC631FC0997A002EBDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648BCC611FC0997A002EBDA3 /* Main.storyboard */; };
+		648BCC681FC0997A002EBDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BCC671FC0997A002EBDA3 /* Assets.xcassets */; };
+		648BCC6B1FC0997A002EBDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648BCC691FC0997A002EBDA3 /* LaunchScreen.storyboard */; };
+		648BCC751FC09C4C002EBDA3 /* petLogo 200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 648BCC741FC09C4C002EBDA3 /* petLogo 200x200.png */; };
+		649E6F7B1FC47E7900E7748E /* ListClinicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E6F7A1FC47E7900E7748E /* ListClinicsViewController.m */; };
+		649E6F801FC496E000E7748E /* logo-clinic.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E6F7F1FC496E000E7748E /* logo-clinic.png */; };
+		649E6F831FC4ABB600E7748E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E6F821FC4ABB600E7748E /* MainViewController.m */; };
+		649E6F851FC4BCD500E7748E /* dogIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E6F841FC4BCD500E7748E /* dogIcon.png */; };
+		64BE47C11FD56F3D0043219F /* NFChelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BE47C01FD56F3D0043219F /* NFChelper.swift */; };
+		64BE47C41FD573C90043219F /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BE47C31FD573C90043219F /* NFCViewController.swift */; };
+		64BE47C71FD574000043219F /* NFCViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BE47C61FD574000043219F /* NFCViewController2.m */; };
+		64C60B161FCDBEF300D97FFE /* Orange_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C60B151FCDBEF300D97FFE /* Orange_Color.png */; };
+		64C8AD4E1FCC3A07008A9118 /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C8AD4D1FCC3A07008A9118 /* QRcodeViewController.swift */; };
+		64CC020A1FD6F16F00BEA75E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CC02091FD6F16F00BEA75E /* NotificationCenter.framework */; };
+		64CC020D1FD6F1DD00BEA75E /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CC020C1FD6F1DD00BEA75E /* AnimalViewController.m */; };
+		64D870801FCF0AE900009991 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D8707F1FCF0AE900009991 /* GoogleService-Info.plist */; };
+		64EECB601FD36BCD0039EBB7 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 64EECB5F1FD36BCD0039EBB7 /* square.png */; };
+		C1C1BDD73B0ACBC463C5FA19 /* Pods_Pet_Universal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909C7347744CCD0636D3ACFA /* Pods_Pet_Universal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C248834C1CB0EF4CBB6202 /* Pods-Pet Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Universal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet Universal/Pods-Pet Universal.release.xcconfig"; sourceTree = "<group>"; };
+		647684641FD5C1360032D17E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		647684661FD5C46B0032D17E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		648BCC551FC0997A002EBDA3 /* Pet Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BCC591FC0997A002EBDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		648BCC5B1FC0997A002EBDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		648BCC5C1FC0997A002EBDA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		648BCC5E1FC0997A002EBDA3 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		648BCC5F1FC0997A002EBDA3 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		648BCC621FC0997A002EBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		648BCC671FC0997A002EBDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648BCC6A1FC0997A002EBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		648BCC6C1FC0997A002EBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648BCC741FC09C4C002EBDA3 /* petLogo 200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petLogo 200x200.png"; sourceTree = "<group>"; };
+		649E6F791FC47E7900E7748E /* ListClinicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListClinicsViewController.h; sourceTree = "<group>"; };
+		649E6F7A1FC47E7900E7748E /* ListClinicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListClinicsViewController.m; sourceTree = "<group>"; };
+		649E6F7F1FC496E000E7748E /* logo-clinic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-clinic.png"; sourceTree = "<group>"; };
+		649E6F811FC4ABB600E7748E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		649E6F821FC4ABB600E7748E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		649E6F841FC4BCD500E7748E /* dogIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogIcon.png; sourceTree = "<group>"; };
+		64BE47C01FD56F3D0043219F /* NFChelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFChelper.swift; sourceTree = "<group>"; };
+		64BE47C21FD56FEC0043219F /* Pet Universal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pet Universal.entitlements"; sourceTree = "<group>"; };
+		64BE47C31FD573C90043219F /* NFCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
+		64BE47C51FD574000043219F /* NFCViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCViewController2.h; sourceTree = "<group>"; };
+		64BE47C61FD574000043219F /* NFCViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFCViewController2.m; sourceTree = "<group>"; };
+		64C60B151FCDBEF300D97FFE /* Orange_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange_Color.png; sourceTree = "<group>"; };
+		64C8AD4D1FCC3A07008A9118 /* QRcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
+		64CBFF291FE6B917003711A9 /* Pet Universal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pet Universal-Bridging-Header.h"; sourceTree = "<group>"; };
+		64CC02091FD6F16F00BEA75E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		64CC020B1FD6F1DD00BEA75E /* AnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
+		64CC020C1FD6F1DD00BEA75E /* AnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalViewController.m; sourceTree = "<group>"; };
+		64D8707F1FCF0AE900009991 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64EECB5F1FD36BCD0039EBB7 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		909C7347744CCD0636D3ACFA /* Pods_Pet_Universal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Universal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABC0D17FA5F415D707576FF /* Pods-Pet Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Universal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet Universal/Pods-Pet Universal.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648BCC521FC0997A002EBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CC020A1FD6F16F00BEA75E /* NotificationCenter.framework in Frameworks */,
+				647684671FD5C46B0032D17E /* UserNotificationsUI.framework in Frameworks */,
+				647684651FD5C1360032D17E /* UserNotifications.framework in Frameworks */,
+				C1C1BDD73B0ACBC463C5FA19 /* Pods_Pet_Universal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648BCC4C1FC0997A002EBDA3 = {
+			isa = PBXGroup;
+			children = (
+				64EECB5F1FD36BCD0039EBB7 /* square.png */,
+				64C60B151FCDBEF300D97FFE /* Orange_Color.png */,
+				649E6F841FC4BCD500E7748E /* dogIcon.png */,
+				649E6F7F1FC496E000E7748E /* logo-clinic.png */,
+				648BCC741FC09C4C002EBDA3 /* petLogo 200x200.png */,
+				648BCC571FC0997A002EBDA3 /* Pet Universal */,
+				648BCC561FC0997A002EBDA3 /* Products */,
+				908B847F32D3116501FE46C5 /* Pods */,
+				D5F03AD646BDCE8392D7D21C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		648BCC561FC0997A002EBDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648BCC551FC0997A002EBDA3 /* Pet Universal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648BCC571FC0997A002EBDA3 /* Pet Universal */ = {
+			isa = PBXGroup;
+			children = (
+				64BE47C21FD56FEC0043219F /* Pet Universal.entitlements */,
+				648BCC5B1FC0997A002EBDA3 /* AppDelegate.h */,
+				648BCC5C1FC0997A002EBDA3 /* AppDelegate.m */,
+				648BCC5E1FC0997A002EBDA3 /* LoginViewController.h */,
+				648BCC5F1FC0997A002EBDA3 /* LoginViewController.m */,
+				648BCC611FC0997A002EBDA3 /* Main.storyboard */,
+				648BCC671FC0997A002EBDA3 /* Assets.xcassets */,
+				648BCC691FC0997A002EBDA3 /* LaunchScreen.storyboard */,
+				648BCC6C1FC0997A002EBDA3 /* Info.plist */,
+				64D8707F1FCF0AE900009991 /* GoogleService-Info.plist */,
+				648BCC581FC0997A002EBDA3 /* Supporting Files */,
+				649E6F791FC47E7900E7748E /* ListClinicsViewController.h */,
+				649E6F7A1FC47E7900E7748E /* ListClinicsViewController.m */,
+				649E6F811FC4ABB600E7748E /* MainViewController.h */,
+				649E6F821FC4ABB600E7748E /* MainViewController.m */,
+				64CC020B1FD6F1DD00BEA75E /* AnimalViewController.h */,
+				64CC020C1FD6F1DD00BEA75E /* AnimalViewController.m */,
+				64C8AD4D1FCC3A07008A9118 /* QRcodeViewController.swift */,
+				64CBFF291FE6B917003711A9 /* Pet Universal-Bridging-Header.h */,
+				64BE47C01FD56F3D0043219F /* NFChelper.swift */,
+				64BE47C31FD573C90043219F /* NFCViewController.swift */,
+				64BE47C51FD574000043219F /* NFCViewController2.h */,
+				64BE47C61FD574000043219F /* NFCViewController2.m */,
+			);
+			path = "Pet Universal";
+			sourceTree = "<group>";
+		};
+		648BCC581FC0997A002EBDA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				648BCC591FC0997A002EBDA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		908B847F32D3116501FE46C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EABC0D17FA5F415D707576FF /* Pods-Pet Universal.debug.xcconfig */,
+				00C248834C1CB0EF4CBB6202 /* Pods-Pet Universal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5F03AD646BDCE8392D7D21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CC02091FD6F16F00BEA75E /* NotificationCenter.framework */,
+				647684661FD5C46B0032D17E /* UserNotificationsUI.framework */,
+				647684641FD5C1360032D17E /* UserNotifications.framework */,
+				909C7347744CCD0636D3ACFA /* Pods_Pet_Universal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648BCC541FC0997A002EBDA3 /* Pet Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648BCC6F1FC0997A002EBDA3 /* Build configuration list for PBXNativeTarget "Pet Universal" */;
+			buildPhases = (
+				C2A2EAA4F14C3E848E4C4C05 /* [CP] Check Pods Manifest.lock */,
+				648BCC511FC0997A002EBDA3 /* Sources */,
+				648BCC521FC0997A002EBDA3 /* Frameworks */,
+				648BCC531FC0997A002EBDA3 /* Resources */,
+				0D523D182CB9ED09A3664759 /* [CP] Embed Pods Frameworks */,
+				033B01449CA7F6ACF3C2D81D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Universal";
+			productName = "Pet Universal";
+			productReference = 648BCC551FC0997A002EBDA3 /* Pet Universal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648BCC4D1FC0997A002EBDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "pet@ua.pt";
+				TargetAttributes = {
+					648BCC541FC0997A002EBDA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PHQ37KZRYM;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 648BCC501FC0997A002EBDA3 /* Build configuration list for PBXProject "Pet Universal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648BCC4C1FC0997A002EBDA3;
+			productRefGroup = 648BCC561FC0997A002EBDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648BCC541FC0997A002EBDA3 /* Pet Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648BCC531FC0997A002EBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BCC751FC09C4C002EBDA3 /* petLogo 200x200.png in Resources */,
+				64EECB601FD36BCD0039EBB7 /* square.png in Resources */,
+				649E6F851FC4BCD500E7748E /* dogIcon.png in Resources */,
+				64D870801FCF0AE900009991 /* GoogleService-Info.plist in Resources */,
+				648BCC6B1FC0997A002EBDA3 /* LaunchScreen.storyboard in Resources */,
+				648BCC681FC0997A002EBDA3 /* Assets.xcassets in Resources */,
+				64C60B161FCDBEF300D97FFE /* Orange_Color.png in Resources */,
+				649E6F801FC496E000E7748E /* logo-clinic.png in Resources */,
+				648BCC631FC0997A002EBDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033B01449CA7F6ACF3C2D81D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet Universal/Pods-Pet Universal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D523D182CB9ED09A3664759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet Universal/Pods-Pet Universal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A2EAA4F14C3E848E4C4C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648BCC511FC0997A002EBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BE47C71FD574000043219F /* NFCViewController2.m in Sources */,
+				64BE47C41FD573C90043219F /* NFCViewController.swift in Sources */,
+				64CC020D1FD6F1DD00BEA75E /* AnimalViewController.m in Sources */,
+				648BCC601FC0997A002EBDA3 /* LoginViewController.m in Sources */,
+				649E6F831FC4ABB600E7748E /* MainViewController.m in Sources */,
+				64BE47C11FD56F3D0043219F /* NFChelper.swift in Sources */,
+				64C8AD4E1FCC3A07008A9118 /* QRcodeViewController.swift in Sources */,
+				648BCC5D1FC0997A002EBDA3 /* AppDelegate.m in Sources */,
+				649E6F7B1FC47E7900E7748E /* ListClinicsViewController.m in Sources */,
+				648BCC5A1FC0997A002EBDA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		648BCC611FC0997A002EBDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648BCC621FC0997A002EBDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		648BCC691FC0997A002EBDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648BCC6A1FC0997A002EBDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		648BCC6D1FC0997A002EBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		648BCC6E1FC0997A002EBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648BCC701FC0997A002EBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABC0D17FA5F415D707576FF /* Pods-Pet Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Pet Universal/Pet Universal.entitlements";
+				DEVELOPMENT_TEAM = PHQ37KZRYM;
+				INFOPLIST_FILE = "Pet Universal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.ua.pet.Pet-Universal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pet Universal/Pet Universal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		648BCC711FC0997A002EBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C248834C1CB0EF4CBB6202 /* Pods-Pet Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Pet Universal/Pet Universal.entitlements";
+				DEVELOPMENT_TEAM = PHQ37KZRYM;
+				INFOPLIST_FILE = "Pet Universal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.ua.pet.Pet-Universal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pet Universal/Pet Universal-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648BCC501FC0997A002EBDA3 /* Build configuration list for PBXProject "Pet Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648BCC6D1FC0997A002EBDA3 /* Debug */,
+				648BCC6E1FC0997A002EBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648BCC6F1FC0997A002EBDA3 /* Build configuration list for PBXNativeTarget "Pet Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648BCC701FC0997A002EBDA3 /* Debug */,
+				648BCC711FC0997A002EBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648BCC4D1FC0997A002EBDA3 /* Project object */;
+}

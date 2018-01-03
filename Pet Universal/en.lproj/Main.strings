@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "Raça: Golden Retriever"; ObjectID = "0JN-Rl-yBe"; */
+"0JN-Rl-yBe.text" = "Raça: Golden Retriever";
+
+/* Class = "UINavigationItem"; title = "Pet Universal"; ObjectID = "2a3-w6-Rsd"; */
+"2a3-w6-Rsd.title" = "Pet Universal";
+
+/* Class = "UIBarButtonItem"; title = "Features"; ObjectID = "86H-GJ-aIg"; */
+"86H-GJ-aIg.title" = "Features";
+
+/* Class = "UIButton"; normalTitle = "QRcode"; ObjectID = "9SP-DP-pYj"; */
+"9SP-DP-pYj.normalTitle" = "QRcode";
+
+/* Class = "UIButton"; normalTitle = "NFC"; ObjectID = "9hv-jb-DZT"; */
+"9hv-jb-DZT.normalTitle" = "NFC";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "EO3-SH-2Tu"; */
+"EO3-SH-2Tu.title" = "< Back";
+
+/* Class = "UILabel"; text = "Animal Name"; ObjectID = "EUu-rF-hXJ"; */
+"EUu-rF-hXJ.text" = "Animal Name";
+
+/* Class = "UILabel"; text = "Peso: 40 Kg"; ObjectID = "ILL-P1-rNY"; */
+"ILL-P1-rNY.text" = "Peso: 40 Kg";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "KWC-Ay-NbX"; */
+"KWC-Ay-NbX.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Kji-pQ-foA"; */
+"Kji-pQ-foA.title" = "Back";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "Rru-AM-tzD"; */
+"Rru-AM-tzD.title" = "< Back";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "V5d-b5-oFX"; */
+"V5d-b5-oFX.placeholder" = "Email";
+
+/* Class = "UIBarButtonItem"; title = "Logout"; ObjectID = "VCb-LV-urh"; */
+"VCb-LV-urh.title" = "Logout";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "Wbk-Mk-3hf"; */
+"Wbk-Mk-3hf.title" = "< Back";
+
+/* Class = "UIButton"; normalTitle = "Droga 3"; ObjectID = "YXO-zk-fSw"; */
+"YXO-zk-fSw.normalTitle" = "Droga 3";
+
+/* Class = "UINavigationItem"; title = "Pet Universal"; ObjectID = "Ynr-hz-yh3"; */
+"Ynr-hz-yh3.title" = "Pet Universal";
+
+/* Class = "UILabel"; text = "Espécie: Cão"; ObjectID = "aNu-zK-s2i"; */
+"aNu-zK-s2i.text" = "Espécie: Cão";
+
+/* Class = "UINavigationItem"; title = "Bem vindo à Pet Unversal"; ObjectID = "dk8-8l-WOA"; */
+"dk8-8l-WOA.title" = "Bem vindo à Pet Unversal";
+
+/* Class = "UILabel"; text = "Sexo: Masculino"; ObjectID = "eYJ-Wj-ztY"; */
+"eYJ-Wj-ztY.text" = "Sexo: Masculino";
+
+/* Class = "UIButton"; normalTitle = "Animal 2"; ObjectID = "fnn-31-DEK"; */
+"fnn-31-DEK.normalTitle" = "Animal 2";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "gW7-3f-6KJ"; */
+"gW7-3f-6KJ.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Animal 1"; ObjectID = "gbx-SZ-yw9"; */
+"gbx-SZ-yw9.normalTitle" = "Animal 1";
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "hIc-8C-Jbw"; */
+"hIc-8C-Jbw.normalTitle" = "Notifications";
+
+/* Class = "UINavigationItem"; title = "Pet Universal"; ObjectID = "jgX-9t-x5G"; */
+"jgX-9t-x5G.title" = "Pet Universal";
+
+/* Class = "UINavigationItem"; title = "Pet Universal"; ObjectID = "kXo-IE-1L7"; */
+"kXo-IE-1L7.title" = "Pet Universal";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "kpJ-NF-6GP"; */
+"kpJ-NF-6GP.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Idade: 4 anos"; ObjectID = "py2-tj-2MY"; */
+"py2-tj-2MY.text" = "Idade: 4 anos";
+
+/* Class = "UIButton"; normalTitle = "Animal 3"; ObjectID = "qiI-6t-oal"; */
+"qiI-6t-oal.normalTitle" = "Animal 3";
+
+/* Class = "UIButton"; normalTitle = "Droga 1"; ObjectID = "tWE-4d-h9R"; */
+"tWE-4d-h9R.normalTitle" = "Droga 1";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "xps-Vi-Yqf"; */
+"xps-Vi-Yqf.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Droga 2"; ObjectID = "yg7-c6-76U"; */
+"yg7-c6-76U.normalTitle" = "Droga 2";
